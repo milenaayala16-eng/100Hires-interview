@@ -78,11 +78,3 @@ Claude Code extension installed and visible in Cursor:
 Codex / ChatGPT extension installed and visible in Cursor:
 
 ![Codex add-on](./img/codex-addon.png)
-
----
-
-## Repository link (for interview submission)
-
-After pushing to `main`, the README is available at:
-
-`https://github.com/milenaayala16-eng/100Hires-interview/blob/main/README.md`
