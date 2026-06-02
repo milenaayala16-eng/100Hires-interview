@@ -1,59 +1,88 @@
-# Proceso de Instalación y Configuración del Entorno de Desarrollo - Cursor IDE
+# Development Environment Setup — Cursor IDE
 
-Este repositorio ha sido creado como parte del proceso de evaluación técnica para demostrar la correcta instalación, configuración y resolución de problemas en el entorno de desarrollo **Cursor IDE**, junto con la integración de extensiones de inteligencia artificial aplicadas al desarrollo de software.
+This repository was created as part of a technical evaluation to demonstrate the installation, configuration, and troubleshooting of the **Cursor IDE** development environment, including the integration of AI extensions for software development.
 
-A continuación, se detallan las herramientas instaladas, los pasos ejecutados y los desafíos técnicos superados durante el proceso.
-
----
-
-## 🛠️ Herramientas Instaladas
-
-1. **Cursor IDE**: Editor de código basado en una bifurcación (fork) de VS Code, optimizado nativamente para flujos de trabajo orientados a la programación asistida por Inteligencia Artificial.
-2. **Claude Code (Add-on)**: Extensión oficial orientada a la asistencia en código utilizando los modelos avanzados de Anthropic (Claude), permitiendo la automatización de tareas y refactorización guiada.
-3. **Codex / ChatGPT (Add-on)**: Extensión de asistencia de IA orientada a la generación de código, consultas en lenguaje natural y optimización de funciones utilizando modelos basados en OpenAI.
-4. **Git & GitHub**: Control de versiones para el seguimiento del proyecto y alojamiento público del repositorio.
+Below are the tools installed, the steps completed, and the technical challenges encountered during the process.
 
 ---
 
-## 🚀 Pasos Completados
+## Tools Installed
 
-1. **Descarga e Instalación del IDE**: Se descargó el instalador oficial de Cursor desde su sitio web oficial (https://cursor.com/) y se procedió con la instalación estándar en el sistema operativo.
-2. **Configuración de la Cuenta de GitHub**: Creación y validación del perfil en GitHub, seguido de la creación de este repositorio público para almacenar las evidencias de la prueba.
-3. **Configuración del Entorno de Terminal (CLI)**: Vinculación de Cursor con la terminal del sistema para habilitar su ejecución mediante comandos directos.
-4. **Instalación de Extensiones vía CLI**: Descarga forzada e instalación de los módulos complementarios requeridos para la prueba técnica.
-5. **Apertura del Repositorio y Verificación**: Inicialización del entorno de trabajo directamente desde la consola, validando la persistencia de las extensiones y el espacio de trabajo.
-6. **Control de Versiones**: Documentación (este archivo `README.md`), confirmación de cambios (`git commit`) y publicación en el entorno remoto (`git push`).
+1. **Cursor IDE** — A code editor based on a fork of VS Code, optimized for AI-assisted development workflows.
+2. **Claude Code (add-on)** — Official Anthropic extension for code assistance using Claude models, including guided refactoring and task automation.
+3. **Codex / ChatGPT (add-on)** — OpenAI extension for code generation, natural-language queries, and function optimization (`openai.chatgpt` in the marketplace).
+4. **Git & GitHub** — Version control and public hosting for this repository.
+
+**Background:** Prior experience with **Visual Studio Code**; first time using **Cursor**.
 
 ---
 
-## 🔍 Inconvenientes Detectados y Soluciones Aplicadas
+## Steps Completed
 
-Durante el proceso de configuración se presentaron ciertos desafíos técnicos que requirieron investigación y diagnóstico. 
+1. **Download and install the IDE** — Downloaded the official Cursor installer from [cursor.com](https://cursor.com/) and completed the standard installation on Windows.
+2. **GitHub account setup** — Created and verified a GitHub profile, then created this public repository to store interview deliverables.
+3. **Terminal / CLI configuration** — Added Cursor to the system `PATH` so it can be launched from the terminal.
+4. **Extension installation via CLI** — Installed the required add-ons using the Cursor CLI and package identifiers (see [Issues and solutions](#issues-encountered-and-solutions-applied)).
+5. **GitHub authentication** — Signed in to GitHub in the local environment (`gh auth login` as `milenaayala16-eng`) and configured Git to use GitHub CLI for HTTPS pushes.
+6. **Open repository and verify** — Opened the project from the terminal with `cursor ./` to load the workspace and confirm extensions were active in the session.
+7. **Version control** — Documented the process in this `README.md`, committed changes (`git commit`), and published to the remote (`git push`).
 
-### 1. Ausencia de Extensiones en el Marketplace Visual
-* **Problema**: Al buscar las extensiones `"Claude Code"` y `"Codex"` dentro del apartado visual de extensiones (*Extensions Marketplace*) dentro de Cursor, el buscador no arrojaba resultados o no aparecían listadas de forma directa.
-* **Investigación**: Al recordar que Cursor mantiene compatibilidad con la arquitectura de VS Code, investigué la posibilidad de interactuar con el gestor de extensiones a través de la interfaz de línea de comandos (CLI).
-* **Solución**:
-  * Configuré la variable de entorno del sistema (`PATH`) para que la terminal reconociera el binario de Cursor de forma global.
-  * Utilicé la herramienta CLI de Cursor para forzar la instalación remota apuntando directamente a los identificadores únicos de los paquetes mediante los siguientes comandos:
+---
 
+## Issues Encountered and Solutions Applied
+
+During setup, several technical issues required research and troubleshooting.
+
+### 1. Extensions not visible in the marketplace
+
+- **Problem:** Searching for `"Claude Code"` and `"Codex"` in the Extensions marketplace inside Cursor returned no results or did not list the add-ons directly.
+- **Investigation:** Because Cursor is compatible with the VS Code extension architecture, I looked into installing extensions from the command line, similar to `code --install-extension` in VS Code.
+- **Solution:**
+  - Configured the system `PATH` so the terminal recognizes the Cursor binary globally.
+  - Installed the extensions via CLI using their package IDs:
 
 ```bash
-    cursor --install-extension anthropic.claude-code
-    cursor --install-extension openai.chatgpt
+cursor --install-extension anthropic.claude-code
+cursor --install-extension openai.chatgpt
 ```
 
-### 2. Sincronización del Entorno de Trabajo (Contexto del IDE)
+- **Verification:** Ran `cursor --list-extensions` to confirm both extensions were installed.
 
-* **Problema**: Al abrir la aplicación desde el acceso directo del sistema operativo, el espacio de trabajo iniciaba vacío y en ocasiones las extensiones recién instaladas por consola no se reflejaban de inmediato en la interfaz.
-* **Descubrimiento técnico**: Al cambiar el flujo de apertura y ejecutar el IDE directamente desde la terminal posicionándome en la carpeta del repositorio con el comando:
+### 2. Workspace context and extension visibility
+
+- **Problem:** Opening Cursor from the desktop shortcut sometimes started with an empty workspace, and extensions installed from the terminal did not always appear immediately in the UI.
+- **Finding:** Launching the IDE from the repository folder with:
 
 ```bash
-  cursor ./
+cursor ./
 ```
 
-Noté que la aplicación inicializa aplicando correctamente el contexto del directorio de trabajo actual. Esto permitió validar visualmente en la barra lateral que ambas extensiones se habían instalado y acoplado de manera correcta a la sesión.
+loads the correct working directory context. This made it possible to confirm in the sidebar that both extensions were installed and active for the session.
 
-## Evidencias
-![step 1](./img/claude-code-addon.png)
-![step 2](./img/codex-addon.png)
+### 3. Git push authentication (403)
+
+- **Problem:** `git push` failed with `Permission denied to LucasOlivera-andreani` because Windows Credential Manager was using a different GitHub account than the repository owner (`milenaayala16-eng`).
+- **Solution:**
+  - Signed in with GitHub CLI: `gh auth login` (account `milenaayala16-eng`).
+  - Ran `gh auth setup-git` so Git uses `gh` for GitHub credentials.
+  - Removed stale `git:https://github.com` credentials for the other account from Windows Credential Manager, then pushed again successfully as Milena.
+
+---
+
+## Evidence
+
+Claude Code extension installed and visible in Cursor:
+
+![Claude Code add-on](./img/claude-code-addon.png)
+
+Codex / ChatGPT extension installed and visible in Cursor:
+
+![Codex add-on](./img/codex-addon.png)
+
+---
+
+## Repository link (for interview submission)
+
+After pushing to `main`, the README is available at:
+
+`https://github.com/milenaayala16-eng/100Hires-interview/blob/main/README.md`
