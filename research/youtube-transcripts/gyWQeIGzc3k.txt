@@ -1,0 +1,929 @@
+hey there everyone happy Saturday April
+6th uh today is technically just one
+month and one day uh after Google
+launched the March core and March spam
+updates of
+2024 uh Google actually told us that the
+core update would take up to a month to
+roll out so uh I think very shorts
+yesterday was like today's probably the
+day that the core update ended but they
+didn't uh tell us that it's over yet
+Google will tell us when an update has
+ended and that hasn't happened yet so
+technically it's still rolling out um
+obviously this is the tail end I think
+it's not unprecedented that Google says
+it's going to take a few weeks and then
+it takes more than a few weeks I
+actually kind of had this feeling this
+whole time that this is going to take
+longer than they said it was so there's
+a lot going on there's a lot of things
+that they seem to be tweaking and
+changing and uh I want to talk a little
+bit about that today I think uh the most
+asked question in the SEO or Twitter or
+you know our industry space right now
+the loudest question is why have no
+sites recovered from The Helpful content
+update from September so I want to talk
+about that a little bit today uh first
+by starting off by saying um myself like
+Glenn Gabe a few other people what we're
+doing is we're looking at a lot of
+different sites like in Aggregate and
+looking at data about how the sites have
+changed in terms of projected traffic
+visibility like there's different
+metrics that we look at so we aren't
+like cherry-picking one site or two site
+and just kind of looking at that we're
+looking at things that scale as much as
+possible this is what I do day-to-day
+with my work by the way um by title VP
+of SEO strategy and research but the
+last couple of years I've really been
+focused on um looking as at scale at at
+what outcomes of Google updates and
+things like this as much as possible
+it's not just looking at a few sites
+it's not just looking at the clients
+that we work with which we do work with
+a lot of different clients we work you
+know I work at at an agency but trying
+to look at scale as at as many uh
+details and website attributes and
+information as possible so you might
+have seen the articles that I write
+about core updates I'm always almost
+always looking at least at a couple of
+thousand sites at a time so obviously we
+don't have the the data that Google has
+Google has trillions and trillions of
+sites that it looks at but uh we try to
+get a a pattern you know if we can from
+a smaller batch of sites when we do
+these types of exercises so as far as
+the helpful content update goes there's
+a batch of sites um I probably have like
+a thousand that I've been keeping tabs
+on and just basically looking at how
+have the visibility of those sites
+changed over time so uh you know
+September 17th or 18th when the helpful
+content update rolled out was obviously
+like the most severe decline that's when
+we saw a lot of sites being impacted for
+the first time despite the fact that the
+helpful content ranking system was
+actually introduced a year before that
+and I was actually just um looking
+through some of the communications that
+happened around that time including like
+me and Glenn and Google and everything
+um when it when it first rolled out this
+helpful content system I think it was
+August of
+2022 uh we expected it to be much bigger
+than it was uh it was kind of like wow
+this is this seems like it's going to be
+a really big thing and in the beginning
+it actually kind of wasn't um there was
+an initial roll out of this update and
+uh it really only went after the most
+egregious like unhelpful sites so like
+you might have had like lyrics sites
+that had a lot of spam or like
+calculators or like these kind of sites
+that go in and out of Google all the
+time um but they weren't like legitimate
+blogs let's say and the first roll out
+so there was an update to the system in
+September 2023 a notorious helpful
+content update and that's when this
+thing started to get a lot of attention
+because obviously I would say thousands
+and thousands of sites were impacted
+negatively by that and the impact was
+very severe so um you know some sites
+lost 95% of their traffic some sites
+lost 60% and Google told us this is how
+it's going to work you know like the
+more unhelpful content you have the
+harder you'll be hit so many impacted
+sites um
+I want to take a little bit of a step
+back and talk a little bit about um like
+my experience and where I work and what
+this will all tie together in a little
+bit but basically um I work at an SEO
+agency we're called amsv again I'm the
+VP of strategy SEO strategy and research
+and we work and I've worked on hundreds
+of clients hundreds of different
+companies uh doing SEO for 14 years for
+me and uh you know we work on Enterprise
+Brands we work on big companies we work
+on midsize companies sometimes small
+businesses but generally like bigger mid
+to Enterprise level Brands um you can
+think of like you know healthcare
+companies Banks Insurance e a lot of
+e-commerce a lot of Publishers this kind
+of thing generally speaking um these
+kinds of companies of course they can be
+affected by algorithm updates things go
+in and out things go up and down all the
+time but none of these companies that we
+worked with were hit by The Helpful
+content update I just I want to be clear
+about that um and and it wasn't until
+the helpful content update rolled out
+that I decided that like we should help
+some of these companies because me
+personally it's like a passion thing
+project for me I see a lot of what's
+going on I think I see what's going on
+and I do want to help I've actually
+helped countless people there's like
+dming people back and forth trying to
+give some insights and um this has
+become a really a passion project for me
+because I think uh it's it's a bit
+unprecedented uh in the scope of like
+what's specifically happening with this
+update now it's not unprecedented and
+the reason why I bring up the agency
+experience is because um myself my team
+many people in the industry especially
+those of us that have been doing SEO for
+10 plus years you start to see these
+things are
+cyclical and uh I've told this story and
+now many times but my SEO career started
+when I was working with a company uh
+inhouse and doing really great for SEO
+and we we discovered that buying links
+on Blackout world was the best thing for
+our site like immediately our rankings
+shot up so I got really into B buying
+links on Blackout World um and other
+sources and I was doing article spinning
+I was doing all this stuff that was like
+conventional SEO wisdom which was
+actually all against Google's guidelines
+I didn't even actually know it was
+against Google's guidelines I just
+thought is working so let's keep doing
+that and uh we did a lot of that and it
+worked really well and then uh it was
+what 2012 when I went to work and
+checked our rankings and everything went
+to like nothing like completely wiped
+off of Google um and it was the penguin
+update so that was my first job like as
+an adult I was a young adult um I got
+the company that I was working for in
+really big trouble with an algorithm
+update and I couldn't fix it I tried to
+fix it for two or three months and I
+couldn't um and it was devastating it
+was like imagine like I was 21 or 22 and
+I was like I I screwed everything up it
+wasn't just me it obviously other people
+but um that was terrible
+feeling and it was extremely difficult
+to recover I don't think the site ever
+trly recovered um so that that sucks and
+I decided then I wanted to go into the
+SEO agency world and I wanted to not do
+that again I wanted to like help
+companies in a way that uh wouldn't get
+them in trouble and wouldn't have to go
+through that experience again now in my
+time working at SEO agencies which has
+been 12 plus years of my life now um
+there's obviously situations where we've
+come across companies that have been hit
+by algorithm updates but there's also a
+lot of situations where it's our job to
+prevent companies from being hit by
+algorithm updates and what does that
+mean it means reading Google's
+guidelines in detail because you're not
+always going to get a specific
+indication from Google about what you
+did or what you didn't do but when you
+work on these kinds of situations over
+and over and over which I've been doing
+um you'll see the patterns and a lot of
+times sites will come to you and I can
+even see now they're doing something
+where I know it's going to get them in
+trouble it's just it's just pattern
+recognition right I've been doing this
+over my whole adult life and so what and
+another thing too that I want to bring
+too is like the helpful content update
+is not the first time in Google history
+that Google has um created some type of
+algorithm update that devastates
+thousands of small websites or medium
+websites in some cases even really big
+Brands I mean there's there's actual
+like examples of big brands that got
+caught up in Google's algorithm updates
+and it made the New York Times Like This
+is not no one's really immune if they're
+if they're doing things that potentially
+fall in the gray area of what Google
+says not to do so um and every time we
+go through that experience and every
+time like help a client or we help
+clients who have been in the situation
+and a lot of times they come to us after
+it happened right like they tried
+something they worked with an SEO
+consultant believe me we hear the same
+names over and over of companies and
+people that people work with and it gets
+them in trouble so that's very
+frustrating for me on a personal level
+because um I see the type types of
+tactics and techniques and and things
+that people are are publicly um
+advocating to do that gets sites in
+trouble and a lot of these sites have no
+idea that what they're doing is against
+against Google's guidelines so that's
+very frustrating for me on a personal
+level and one of the reasons why this is
+like my brand is to like try to prevent
+people from getting into that situation
+in the first place um but there you know
+whenever an algorithm update hits a
+company hits a site a site owner um it's
+devastating and suddenly as the seos we
+not only become seos we become like
+therapists like I've worked with so many
+people who have lost so much from um
+being hit by Google's algorithm updates
+so this is a big big reason why my SEO
+guidance generally speaking is aimed at
+reducing risk as much as possible
+because when you pay attention to
+Google's guidelines and you pay
+attention to the trend of how things are
+going what Google's focused on what
+Google's not focused on you can start to
+kind of anticipate where things are
+going and help companies avoid doing
+things for example Mass autogenerating
+content using trat GPT over the last
+year like companies were experimenting
+with that that's fine there's ways to do
+it but I was pretty cautious if you read
+any of my content you look at videos
+whatever the past year I've been pretty
+cautious about being careful with that
+because Google's guidelines say Mass
+autogenerating content is Spam that's
+been spam the whole time we just have
+new tools to do that so being cautious
+to me is part of our profession um I
+know a lot of people think that I'm just
+like a spokesperson or a suck up to
+Google or whatever that's actually not
+true um my you know personal opinions
+about Google have nothing to do with the
+work that I'm doing I'm protecting my
+clients and I'm trying to help my
+clients succeed so that's that's my
+actual stance um and if you want to talk
+about my personal opinions we can have a
+drink at a bar at an SEO conference or
+something but that's that's not what I'm
+here to do I'm not here to spread my
+personal opinions about you know how I
+feel about Google as a business I'm here
+to help companies avoid getting
+themselves into situations that are very
+hard to undo which is now what we're
+seeing with the helpful content update
+so yes I'm surprised we haven't seen any
+sites recover um I'm surprised not only
+that we haven't seen sites go in the the
+you know
+positive direction we haven't seen like
+20% growth 30% growth we've seen
+basically if anything the sites are flat
+or they're down so what does that tell
+me um it tells me that number one um I
+think I understand that Google's
+actually said a few times including in
+The Helpful content update guidance that
+like within a few months you might see a
+change that's confusing right because we
+haven't seen anything happen that
+indicates that within a few months or
+weeks you can see positive increases so
+that's not to say that they're lying but
+it it is to say that maybe the changes
+that site owners have made and they have
+made a lot I mean our agency did do some
+work with helpful content update clients
+and their sites look very different now
+than they did in September these sites
+are doing a lot I think they're going in
+a really positive direction I think
+they're doing better things for users um
+I feel very confident about the work
+that we've done with these clients um so
+I'm I am surprised that there's little
+to no positive movement at all across
+the board but uh I do think number one
+maybe it hasn't been long enough I know
+that sounds like a copout but if you
+draw upon past experiences of the
+penguin update the panda update the
+medic update big significant core
+updates that have happened throughout
+Google's history and those of us that
+have worked on them I'll talk about the
+medic update in a second those of us
+that have worked on them know how long
+this thing takes yet another reason why
+I am so risk averse because
+there's nothing worse than like seeing
+all this amazing SEO success for maybe a
+year or two years and then being wiped
+out to the point where you can't recover
+for three years without doing a ton of
+work so again just trying to like avoid
+that that situation happening so I do
+want to bring up the medic update
+because that was another moment in my
+career that I really learned a lot um we
+were working with a medical client that
+had medical content and they were
+actually doing a similar kind of version
+of like Mass content generation and at
+the time it was actually AI driven this
+was ahead of the curve this was several
+years ago 2017 2018 and uh I had a bad
+feeling about it I felt like you know
+this doesn't directly go against
+Google's guidelines but it's close it's
+in a gray area and it's medical content
+and this was before eat was a really big
+thing but uh and that site was actually
+seeing the most traffic you know the the
+top rankings for all kinds of medical
+queries
+and then August 1st 2018 happened and
+that was the medic update same thing
+went to work boom site was like off of
+Google they lost I don't even know 80
+90% of their traffic and it was just
+like plummeting every day it was worse
+it was traumatizing and the client was
+traumatized we were traumatized
+everybody was traumatized and that was
+when the medic update happened right so
+now there's this like kind of new set of
+rules where Google was a little bit
+vague about what was happening it was a
+core update but a lot of us in the
+industry started to piece together oh
+this is affecting medical sites that's
+why we call it the medic update by the
+way Google didn't ever call it the medic
+update we just named it that I think it
+was Barry Schwarz because it was like
+the majority of sites that got affected
+were medical health and medical websites
+that's actually when I started talking
+so much about eat which is experience
+expertise Authority and Trust used to be
+eat but because Google had these new
+Communications we're kind of piecing
+things together and realizing by the way
+this was like right before Co this was
+right after the 2016 election in the US
+there was pressure on Google to elevate
+trustworthy information and reduce the
+visibility of fake news and
+misinformation there was external
+pressure as a business on Google um for
+obvious reasons and that's what they did
+right that's that's exactly what eat was
+designed to do and there's like crisis
+response you know or crisis information
+response systems like all these
+different systems that Google has when
+let's say yesterday there was an
+earthquake in New York right when
+something's rolling out like that no pun
+intended um you you know Google might
+say this is a realtime emergency we're
+still collecting information because
+they don't want misinformation to
+circulate in the search results so
+there's all these different systems that
+Google has um but at the time the medic
+update it appeared to be the case that
+uh Google was becoming more strict with
+not allowing just anybody to rank for
+health and medical content so before
+that you could actually start a blog and
+say you can cure cancer with essential
+oils like you could actually rank on
+Google and I have a lot of examples of
+sites that were ranking on Google for
+that type of thing so they had to make a
+big change to their algorithms to reduce
+the visibility of that information
+because it's dangerous information and
+Elevate the Mayo clinics and the
+National Institute of Health and the you
+know Cleveland Clinic and Harvard and
+these very very high eat sites for
+medical reasons and that extends into
+other your money or life categories like
+finance and politics so there are these
+ranking systems that are designed to
+elevate authoritative sources for
+certain queries I still think that's
+very much true but
+suddenly uh in about let's say 2020 I
+would say is when there started to be
+these like this new thing happening on
+goog and this was and someone pointed
+this out recently like maybe this was
+tied to covid and people were working at
+home and they were like finding new ways
+to make money but there was a let's say
+like a Renaissance or a gold rush for
+Niche blogs and the ability to make
+money through these blogs and I know
+that it's been around longer than that I
+know that this is not new what is knew
+is that a lot of these site owners were
+seemingly banding together and sharing a
+lot of information in Facebook groups
+and Reddit and YouTube and probably a
+million groups that I don't even know
+about and these are bloggers and they're
+making a lot of money on Google and the
+last few years it's been more and more
+and more right it's it's working really
+really well and uh is a bit of a gold
+rush I know a lot of us have been
+throwing that word around it's it was a
+gold rush it was really like a big
+opportunity to make money online at a
+time when people were working from home
+and you know starting to work remotely
+and travel the world so it's like a
+really big opportunity for a lot of
+people and a lot of people made a lot of
+money um in the last several months or a
+year or so I think it's no secret that a
+lot of people are a bit ostentatious
+with how much money they've made doing
+this thing and that inspires a lot of
+other people to try to also make money
+so now the problem is is multiplying
+right it's like an exponential
+problem and about two years ago I was
+paying attention to this whole thing by
+the way um there were a lot of murmurs
+about how Google's quality search
+quality is getting worse the search
+results are getting worse um there was a
+pretty famous uh blog post and it was
+let me find this guy's Blog dkb blog
+Google search is dying I don't know why
+this particular blog post seems to have
+had as much of an impact as it did but
+it went pretty viral on Reddit it went
+viral on Hacker News and then because it
+was going viral some major media started
+to um report on it as well like the
+Atlantic had a kind of big hit piece
+against Google and the quality of its
+results and some of the things people
+were saying Google is like an old
+shopping mall you know you go in there
+and you like kind of forgot what you
+were looking for and like then people
+started to really talk about the fact
+that SEO spammers are ruining the
+internet and I wasn't really like
+clearly
+seeing how big of a problem this was
+becoming until these articles started to
+come out and it became like mainstream
+media that like a lot of people were
+feeling that Google's results were not
+authentic they're lacking firsthand
+experience this was right around the
+time that Google introduced the new e
+for experience in eat this is right
+around the time that Google started to
+say if you're going to publish product
+reviews which later became any review so
+travel um movies whatever you have to be
+you have to have firstand experience you
+have to prove that you went there and
+that's not just saying I went here
+that's like evidence it's like real
+photos of the place real experience es
+real firstand accounts of what you
+experienced or how you tested the
+product or whatever so this is all kind
+of happening at the same time uh but
+this particular moment I think is very
+important because if you read the
+article Google search is dying and I can
+link to it here um it it points out a
+lot of the issues and and uh like
+negative feedback and negative press
+that people were having around that time
+that I do believe just my opinion I do
+believe that inspired the helpful
+content system maybe there's a lot of
+other
+complaints and reasons why Google
+decided to create this but I think that
+moment of like a lot of press attention
+for Google's results being overly
+saturated with like SEO spam and the
+fact that people really felt like they
+needed to append Reddit to their
+searches to find what they were looking
+for I think that had a really big impact
+on what Google decided to do in the last
+couple years so fast forward to you know
+2023 we get the helpful content system
+which I think was very closely tied to
+this feedback that Google got and I also
+think it explains pretty clear
+um you know the surge in Reddit the
+surge in
+quora having firsthand experience
+abundantly throughout those sites which
+like by definition that's what those
+sites are those user user generated
+content websites um that's exactly the
+opposite of what people were complaining
+about people were complaining that
+everything feels like it's overly SEO
+seos are rooting the internet um you
+can't trust any product reviews all this
+stuff so what's the opposite of that
+it's Reddit in theory right Reddit it's
+Kora it's people having real experiences
+now obviously Reddit is now being
+overtaken by spammers so I'm referring
+to a Reddit from a previous life when
+Reddit was a wonderful place to uh
+exchange ideas I think that's changed
+quite a bit unfortunately but that's I
+think what Google was going for and in
+the process they created this helpful
+content update and seemingly the
+algorithms I mean they're using machine
+learning right seemed to have grouped a
+lot of sites together that probably
+included a lot of sites that didn't
+really deserve to get hit by this thing
+especially to the level that they have
+been I agree completely with that idea
+um I've looked at a handful of sites
+that are like yeah you have firstand
+experience you're doing the thing you're
+testing the products you're clearly you
+know authentic you're you're a real
+person like all these things that like
+technically you're supposed to be doing
+people are doing I think a lot of people
+got caught in the crossfire I think that
+the you know machine Learning Systems
+probably identified certain sites as
+being more egregious than they actually
+are so that's happening I agree with
+that but I also think that's not the
+majority of sites I think the majority
+of sites uh are are too similar in
+nature and weren't really providing a
+lot of great value for Google's
+Searchers and it's exactly the type of
+content that I think these reactionary
+hit pieces against Google were talking
+about and honestly I didn't even know
+this was as big of a problem as it
+turned out to be until I was having
+lunch with the journalist from The Verge
+if anybody read that article called the
+people that to the
+internet I agreed to have lunch with
+this journalist and this was supposedly
+a a piece that was the history of SEO 25
+years of Google history right and it was
+framed to me in a way where it was like
+she was talking to um some of the
+Legends in our industry you know she was
+talking to Barry Schwarz she was talking
+to Danny Sullivan she spoke to Matt Cutz
+I mean she spoke to like literally like
+the titans of the SEO industry and that
+was very appealing to me because I was
+like oh my god did she talk to those
+people like I definit def want to be
+part of this you know when we had lunch
+it was very clear that there was this
+angle that she was going for which I
+think was later revealed in the article
+which was essentially that seos are
+ruining the internet and that was a bit
+surprising to me because again I work at
+an agency we're doing certain types of
+SEO with with big brands that I would
+say is very compliant with what Google
+encourages site owners to do and
+generally they don't get in really big
+trouble with algorithm updates like
+they're just like generally improving
+over time but she was really focused on
+this community of seos in her mind there
+were seos again remember she like went
+to some alligator party that was
+literally an affiliate marketing party
+it wasn't even an SEO party um she was
+talking to people that were like doing
+all these Shady things and going to all
+these Shady conferences and I was like
+whoa whoa whoa that's
+Noto that's spam like I'm sorry if
+people call themselves SEO that yeah I
+guess they're optimizing stuff to be on
+search engines but they're if you if you
+have an SEO strategy that backfires and
+completely wipes your sight off the
+internet to me that's not really SEO
+that's spam spam you can get away with
+making a lot of money in a really short
+amount of time but it's not sustainable
+it's not an SEO strategy to me SEO is
+avoiding doing that or like if that
+happens you can kind of like recover but
+I I just personally don't think that
+spamming and SEO are the same things and
+I made that very clear to her I was like
+whoa whoa whoa we're talking about two
+different things people that work at an
+agency people that work at Big Brands
+we're you can't even imagine the stuff
+that we're doing compared to like doing
+SEO in a small Niche block and I'm not
+saying one is better than the other I'm
+just saying they're two completely
+different things
+um and I did speak a lot about the type
+of work that we actually do in the SEO
+industry like the people that work at
+SEO agencies and things like this uh and
+that didn't really make it into the
+article that's when I realized that
+there's and uh Ryan Jones said this
+really great thing on Twitter the other
+day nich site SEO and SEO at agencies
+big brands are just completely different
+things it's not that one is better or
+worse than the other it's just that
+we're not doing the same work right um
+so I think right now is an interesting
+convergence of the two things coming
+together uh but the helpful content
+update and the sites that were hit by
+that uh a lot of them got grouped into
+this other area of SEO that was frankly
+becoming out of control with um too many
+people participating too many people
+following the exact same SBO advice too
+many people creating very identical
+sites and then you get these articles
+that are like Google's are decaying
+shopping mall because I can't by what
+I'm looking for okay and I understand
+everyone's response to this is always
+like well the big sites do the exact
+same thing yeah I I know I mean it's
+like it's like capitalism right it's
+like I these sites in some cases have 20
+30 40 years they're big players they're
+the biggest players on the internet uh
+they can push the rules they can get
+away with certain things they're not
+going to get hit by the helpful content
+update right they're not majority like
+of the the majority of the pages are not
+falling into like now what we're seeing
+the patterns are for the sites that were
+impacted they do a lot of other things
+they have existing audiences maybe they
+have like a real physical presence or
+they've been in newspapers for like a
+hundred years you know what I mean like
+it's it's just not Apples to Apples and
+do I think it's fair no I mean I think I
+would love to see the little guy be able
+to get more traffic and visibility but I
+think instead of hyper fixating on
+whether or not it's fair what I
+recommend to site owners right now and I
+understand it's really frustrating it's
+been seven months people are out of
+budget people are laying people off it
+sucks um you know it it's also really
+disheartening to like keep tripping away
+at something and not see any progress
+but with the medic update that client by
+the way we were able to fix the problem
+it just took about two or three years it
+was not fun um I know that people that
+have worked on pan Panda and Penguin
+said it took them about two years um
+I've worked on a number of different
+recoveries where I would say it's about
+a year minimum and that's assuming
+you're doing really really hard work so
+I know a lot of these sites are running
+out of money they don't have the
+resources they don't have this and
+that sucks I I don't know what to say
+really sucks but if you are able to and
+you're some it's something that you care
+about you know like really wanting to
+fix things I will say I've read a lot of
+the content on these sites there's still
+a lot of area of areas of opportunity
+and ways to improve these sites um I
+spoke with someone a couple days ago
+where they they thought the content was
+very good and it is fine but it it's it
+was a product review site that does a
+lot of reviews of like outdoor gear and
+and even though it was written by a
+human even though the human claims to
+have tested the products there was
+nothing that gave me in that article the
+sense that the person actually tried the
+products it felt like taking the
+manufacturer's description and taking
+what other people have said online said
+oh this one does this thing this one
+does this thing but it wasn't like when
+I was using the backpack you know it
+gave me back pain because I was walking
+on this and this Trail and you know it's
+like that's where we need to go we need
+to go to like how can you take your site
+and make it feel a bit more like Reddit
+in the sense that reddit's full of
+firstand experience right if you're an
+author if you're a site owner if you
+have people producing content on your
+site what is their experience what is
+their perspective because the opposite
+of boring AI generated content is real
+authentic human experiences and I think
+the more that you can convey that in
+your content the better you're going to
+do and I think the closer you'll be to a
+recovery later on and when I talk to
+people about this like that's a ton of
+work like yeah you got to like go
+through probably all of your content and
+update it because if you're writing
+about and I tweeted about this but if
+you're writing
+about best places to go in Barcelona and
+you say sag sag Familia I can't speak
+Familia and there's a huge line outside
+and there's construction everywhere and
+you know it's like the tickets are super
+expensive I want to know that like I
+want to know yeah it's a great place to
+go but be careful of the line
+maybe try going on a Tuesday you know
+maybe try getting the the discount at 4M
+like those are the things that are like
+ah okay now this is helpful content
+right so you have to go through your
+content and remember like The Helpful
+content update was like trained on data
+that existed on from of these sites from
+months before so be just because you're
+fixing everything right now doesn't mean
+Google even necessarily like processed
+all the changes that you made I know
+that a lot of people have made changes
+in the last three months and they're
+expecting some miraculous recovery it's
+not enough time and I've seen Google's
+crawling these sites less than it was
+before some of the pages have dropped
+out of the index so got to be patient
+but uh what was really uh encouraging
+for me was when I spoke to this one side
+owner with the product
+reviews uh he was really excited it was
+like oh we can do that we did test the
+products we have a lot to say about it
+is that what we're supposed to be doing
+I was like yeah that's in Google's
+guidance like if you read all their
+guidelines it's like please explain what
+makes you qualified and why you like and
+what's different from every other page
+on the internet and like think about why
+Reddit Andora are ranking so well people
+want Human Experience so and by the way
+there are Publishers that are recovering
+with this update March update they're
+not it's not the case that every single
+site on the internet that was hit by The
+Helpful content update or whatever those
+are not the only sites there are Niche
+Publishers that are recovering there are
+recipe sites that are recovering uh
+there are some travel sites it's harder
+to find but there are examples and I'm
+working on some of them of sites that
+are seeing Mass
+increases and maybe they were hit by
+other updates they were hit by the
+reviews update they were hit by uh the
+medic update it takes years right but
+they're starting to see really big
+recoveries and so those sites have been
+doing this hard work for a really long
+time and it takes a really long time so
+uh hopefully that's helpful but and last
+thing I'll say the recipe sites uh
+there's like five or six or seven recipe
+sites that I've seen that have gone up
+in a really big way in the last few
+weeks with this update and I took a look
+at them and a lot of them are I mean
+most recipe sites are generally the same
+which makes it tricky because it's like
+well what's that person doing that that
+person's not doing so I think a lot of
+sites probably do these things already
+but the the big pattern that I could
+find with those recipe sites is that
+they do more than just recipes they
+might have a magazine they might have uh
+in some cases there was like a bakery
+they had like two locations uh someone
+had a summer camp where you could go do
+cooking courses with her and her husband
+one of them had like a farm where they
+were growing all their vegetables and
+they were talking about how to have the
+farm and how to use the vegetables so
+that's doing something different that's
+differentiating yourself so now you're
+not just a recipe blog you're a brand
+you're like a real business that's
+getting traffic and and revenue and
+audience you know audiences and
+everything from different places they
+have social following they have like
+people buying their merchandise whatever
+uh I think that's the direction that
+these things are going so don't just add
+a shopping cart to your website for the
+sake of trying to recover that's not the
+way to think about it but the way to
+think about it is like what are some
+really interesting ways that I can go
+above and beyond with my content and
+with my brand that's not just affiliate
+content uh can you have a lot of
+different types of content on your site
+video content podcast content whatever
+it is it's not just affiliate content I
+would start there hopefully this was
+helpful I know that was a lot of
+rambling um but feel free to ask me
+anything in the comments and uh when the
+update rolls out I'm hoping for a
+miracle I hope that a lot of these sites
+see some POS posi improvements over the
+next few days have a great weekend
+everyone bye

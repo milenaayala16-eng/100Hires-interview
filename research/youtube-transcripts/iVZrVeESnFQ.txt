@@ -1,0 +1,1457 @@
+So, Ryan, I was thinking today, uh it
+didn't take us too long to go from this
+AI thing cannot really do great content
+to oh my god, this is amazing, right?
+And here we are. Uh you have devised an
+AI content automation workflow that you
+used to actually publish quite a few
+articles on Ahrefs blog already, and
+these are good articles. These are great
+articles.
+And yeah, full disclosure, I haven't
+seen it yet, so I'll be checking it out
+live together with anyone watching it.
+And I'm excited, yeah. Do you want to
+say a few quick words on what people are
+about to see?
+>> Yeah, well, exactly that. So, we've
+obviously been tinkering with using AI
+in our content workflows for years at
+this point. And it's always been very
+effortful. It could be helpful, but you
+have to sink a ton of time and energy
+into it. There's still a lot of manual
+stuff that has to happen.
+I kind of feel like that's not the case
+anymore. Uh it's a bit spooky, actually.
+I think since Claude code is probably
+the big thing that has changed this.
+This kind of agentic workflow where
+Claude can make some decisions on your
+behalf, and you can provide it with some
+guardrails to actually make it do things
+in a certain way.
+Um so, we've basically, yeah, built I
+call it the blog pipeline,
+uh and it is a kind of content
+automation system for new articles and
+for content updates.
+Uh we've done maybe like 30 article
+updates with it so far.
+>> Wow.
+>> published maybe 10 15 articles, got
+maybe something similar in progress at
+the moment. Um
+yeah, it's been pretty cool.
+>> Let's Let's Let's review it. Show it to
+me.
+>> Yeah, let's do it. Um so, obviously two
+things on the screen right now. We have
+a terminal, and we have Claude code
+running in that terminal. So, that is
+just a folder that I've called blog
+pipeline, and Claude code is living in
+that folder, and it will do stuff in
+that folder for me when I ask it to.
+Um and we've got VS code over here. This
+is just a really good way of showing you
+the contents of that folder in a way
+that is a bit easier to understand.
+Uh these are all the folders on the
+left-hand side and they've all got files
+inside them.
+And I of course, I asked Claude, I said,
+"I'm going to present this process on a
+podcast with Tim. Give me some notes and
+visualizations to help explain this."
+So, it added a handy little podcast
+folder here uh that has some notes and
+visualizations to make this a bit more
+interesting.
+But, the basic premise is
+uh
+we have basically set it up such that
+there are maybe 23 or so uh skill files
+in here. You can see them in this
+folder.
+Uh and what is a skill?
+>> skill files? That's That's a lot.
+>> That is a lot.
+Um and each of these skill files is
+basically a process. It is a process
+that at some point during creating
+content or updating content as a human,
+we generally do something like this or
+very similar to this.
+Um and this is just a markdown document
+with very simple instructions.
+>> me already. I I kind of know what skills
+are, but you lost me already. Let's
+start from the beginning. Where does the
+process start? What do we start from? Do
+we start from a keyword? Do we start
+from an idea? What's the first step with
+this?
+>> Yes.
+Uh so, what you can do is So, this is a
+keyword ideas CSV.
+Um so, it's obviously a bit hard to see
+in this format.
+But, basically we've even set up a a
+process right now where we can use the
+Ahrefs MCP, which is obviously a way for
+Claude and other to access Ahrefs data,
+and it will run a content gap analysis
+for us.
+And I've then set up another process
+where it will review this list of
+keywords and prioritize them.
+Uh it looks at the
+>> Ryan, again, let me uh use my Eastern
+European politeness uh to bring you
+right to the point. We're not talking
+about keyword research. We're talking
+about creating content. So, let's say we
+have a keyword or a topic. Uh what do do
+do with it? We're not We're not talking
+about keyword research. We want to
+create content.
+>> All right, let me show you then.
+Let me
+clear this.
+>> [snorts]
+>> Uh so, I can trigger blog pipeline. I
+can put in a keyword like keyword
+opportunities.
+And if I want, I can add some context to
+it and explain, you know, if there are
+points I want to add, I can add that.
+And off Claude goes.
+And probably somewhere from between 8 to
+11 minutes from now, it will have a
+draft ready for review.
+Um it goes through, yeah, about 12 steps
+at this point, as you can see.
+>> Oh, wow.
+>> It's actually It's actually telling me
+we've already It's so clever. It's not
+letting me do the same one that we've
+already done before.
+Um so, there's a research step. There's
+a reference step where it looks at
+existing articles on the Ahrefs blog.
+There's an outlining step where it turns
+that into a structured outline.
+There's a like product annotation stage
+where we look for opportunities to
+mention specific Ahrefs products.
+There's a drafting phase, a citation
+phase for internal linking and finding
+supporting sources.
+There's a screenshot phase, which
+doesn't work very well, but we're
+working on that.
+Uh a preview phase where you can
+actually preview how it would look on
+the blog. Uh and then a formatting for
+publish phase where it will add in all
+the WordPress short codes, all that kind
+of stuff we need.
+Um
+>> Hm, so, basically, when you when you ask
+it to create uh a a piece of content
+around a given keyword,
+you are essentially uh launching a
+skill,
+which is a combination of steps where
+each step is uh a separate skill.
+And basically, it has to finish them one
+by one, or how does it work?
+>> Exactly that, yeah. So, what You can
+either trigger the skills individually.
+So, if you just want an outline, you can
+just ask for an outline by triggering
+that skill. But, I've created these kind
+of master skills, and they are very
+simple. They exist just to tell Claude
+to work through the other skills in a
+particular order.
+Um so, this one's called blog pipeline,
+and there's also update pipeline.
+Uh and they literally, yeah, just stitch
+them together and make Claude
+systematically work through these
+processes.
+>> Okay.
+Uh
+let me go straight into the
+uh
+phase of being critical of this. Uh
+how is this not a slope? So, what makes
+this process produce good content and
+not some generic stuff?
+>> Yeah. So, that's a very good question. I
+think this definitely works best, for
+one thing, on topics that we have
+already covered in some capacity on the
+Ahrefs blog. Um so, one we published
+recently, content gap.
+We have never written an article about
+content gap spec- What was it? Keyword
+gap? One of these two. Content decay and
+keyword gap. We've written loads about
+these concepts generally, but in
+slightly different contexts. But, we've
+never specifically targeted that
+keyword.
+But, because this uh is able to go and
+look up existing Ahrefs articles and
+anchor the content generation process in
+what we've already written, uh that goes
+a long way to getting rid of a lot of
+the problems you'd have.
+Um
+and there are also some topics, I think,
+I'm mainly using this for very
+straightforward informational topics,
+things that the LLMs know a lot about.
+Um there are opportunities for you to
+provide some context in it. Uh there's a
+particular step in here that looks for
+um opportunities to add information
+gain. So, it actually reads the
+top-ranking articles, summarizes the
+contents of them, and makes suggestions
+for ideas that are not covered, but
+would be useful for the reader to
+understand within this.
+And I think AI is better at research
+than a person is, as well.
+Um it can be faster and more systematic
+about it. It can go out and look up, uh,
+you know, the latest research articles,
+the latest stats, all these kinds of
+things.
+>> Okay, so we definitely cannot go
+through, uh, all of your skills, uh, in
+the course of this podcast episode
+because there is a lot of, uh, a lot of
+content in each of the skills. But, I
+want you to, uh,
+start from the very first step of
+creating content and then go to the
+second and third and highlight maybe one
+or two kind of counterintuitive things.
+So, for example, what what might people
+get wrong if they would want to kind of
+recreate your process? Because, uh, I'm
+not sure that we want to just, uh, give
+out your process to everyone else if we
+want just like open source it and have
+everyone else have access to the same
+process. And I would imagine that people
+would want to,
+uh, make it uh, personal to to them and
+their voice and their blog and the style
+of content that they want. But, yeah,
+walk me through each step and tell me if
+you uncovered
+anything interesting about, uh,
+giving instructions to AI on how to kind
+of improve the output of this specific
+step, if you know what I mean.
+>> Yeah, yeah, yeah. So, well, you made a
+very good point there as well. I think
+the way we are using this is not as
+though this is the universal process
+that everyone in the team has to follow.
+Um, we've actually set it up such that
+the team can fork their own versions of
+this repo, so they can make their own
+version of this folder and they can
+modify it how they like. This version
+has examples of content that I like and
+my writing voice and it's used as part
+of the article generation process. It
+would be super weird if SQ or Louise,
+uh, did the same thing, used my writing
+voice for their articles. So, it's very
+easy to actually update it and
+personalize it. And part of that might
+be changing the steps it goes through,
+your own personal preferences. Um, this
+is kind of very unique to me, I think,
+and that's I kind of I think how this
+should be used.
+Um another good point as well, you said
+you were surprised at how many steps
+there were in this process. I think that
+is actually a very, very good thing.
+Um
+the more steps you create, the more kind
+of introspection you have into the
+process, the better you understand it,
+uh the more opportunities you have to
+actually control and personalize how the
+content turns out.
+So, one very important thing I learned
+very quickly,
+obviously I could just set this process
+in motion and it would give me an
+article in 8 minutes, and either it's
+good or it's bad, it's quite hard to
+work out how to fix and improve the
+process if you do that. So, actually at
+every single step of the process, um
+you can actually see it it will give me
+an output at every stage. So, if
+something goes wrong, if I don't like
+the article or how it turned out, I can
+go back and see uh which part of the
+process it didn't work very well.
+>> I'm actually surprised that when you
+initially tried to launch this process,
+you said that you would wait like 8 to
+12 minutes, because I was expecting that
+you would actually baby sit it from step
+to step, so you would see the output of
+the first step, see if you want to
+refine it, if if it's according to your
+expectations, and then allow it to go to
+the second step, but it's all just
+batched for you. And the thing is
+that that's actually an interesting tip.
+This is exactly what I was looking for,
+some tips for people of
+uh what they need to look for when
+they're building this themselves. And
+the tip is make sure that the process
+saves the output of the step, so if you
+don't like the final thing, you can go
+step by step and review at which step
+kind of it went sideways, so that you
+could uh like give it more instructions
+or refine the the skill that that refers
+to the step uh and make it uh do over
+again and see if that would help. But
+yeah, I'm surprised that uh you let it
+run for like 8 to 12 minutes. Is this
+the point that you trust it well enough,
+you like your steps? Or yeah, probably
+it's that. I don't see any other reason
+why would you would just let it cook for
+so long and follow all the steps.
+>> Yeah, great point. Very importantly,
+this is
+uh actually months and months of
+refinement has gone into this thinking
+and the process in here. And actually,
+the last podcast episode we talked about
+where we had the custom GPTs,
+it was like the kind of baby version of
+this process. So, a lot of the skills I
+have in here are things that we improved
+and refined and did handhold and babysit
+as part of that process. So, we'd
+already written these, already tested
+these, already made dozens and dozens of
+article outputs with them and kind of
+learned to refine them.
+So, the thing that Claude does very well
+is just stitching those together, um
+actually automating that process.
+>> Okay, let's go step by step. The first
+step I think I see, though it is quite
+small, is research, right? Any like one
+or two tips to that you saw that would
+significantly improve the output of this
+step?
+>> So, it does a combination of things. Uh
+maybe most people would assume, you
+know, keyword research is the most
+important thing to do, and we have that
+in here. It goes and gets a bunch of
+Ahrefs data from the MCP, uh related
+keywords, parent topic, all this kind of
+thing.
+And we don't have this yet, but I've
+asked for it. What is more important, I
+think, is going and looking at the
+existing SERP, the content that is
+ranking, and analyzing that and seeing
+the topics that are kind of consensus
+and commonly used there, opportunities
+to differentiate from that.
+Um
+that is what AI content helper is
+perfect for doing, but we don't have the
+endpoint for that yet. So, this does a
+kind of laborious manual version of
+that.
+>> But what is ex- What is exactly like
+what are you asking it to do? Do you ask
+it like
+open the top-ranking articles for this
+keyword and what? And and read them and
+summarize them? What do What do you ask
+it to do? Like, give me something
+interesting about the research step.
+>> Yeah, let me try and find it. Here we
+go. This is the skill file.
+Um so, it starts with keyword ideas.
+It gets uh primary keyword metrics and
+parent topic. Uh it finds long-tail
+keyword variations that share the same
+parent topic.
+Uh there's some prioritization where it
+groups them together and discards ones
+that wouldn't fit the writing 10.
+>> [snorts]
+>> Pulls the questions report through the
+MCP as well, so we get commonly asked
+questions that people might have related
+to this topic. Groups them into question
+themes, so we're not just doing like FAQ
+spam.
+Uh we get the SERP overview. We use that
+to go and look at the type of content
+that is ranking, the estimated traffic,
+all these kinds of things.
+Uh analyze the dominant search intent of
+the SERP results, so we can see what
+type of content performs best that's
+kind of going into this process.
+Uh and then it looks at the actual
+top-ranking pages. So, it uses web
+fetch, it retrieves the content, it
+extracts the headers, it summarizes
+them, it looks for themes and gaps in
+them.
+And yeah, creates content gaps and
+opportunities.
+>> [sighs and gasps]
+>> Um and you can see an example of the
+kind of output. So, it basically creates
+a report, like a research report at this
+step. I don't have to see this, but this
+is what gets fed into Claude at the next
+stage of the process.
+Uh so, you've got loads of keyword data,
+questions to answer, organic results.
+Uh
+>> You know what? At this point, as I'm
+looking at how
+detailed and sophisticated these steps
+are,
+I want to say the word over-engineered.
+>> Mhm.
+>> I'm actually wondering if you would like
+remove half of that, would it just do
+as good of a job?
+>> Yeah, quite possibly. And that's another
+really important part of this process.
+Um
+I'm always surprised at how good,
+increasingly, the most like uh frontier,
+most up-to-date models actually are on
+their own without any input. Um so a big
+part of the testing and iteration we've
+been doing is to we've actually been
+writing um like test cases. We've been
+following this these steps with the
+skill file and without it and seeing
+whether the without version is actually
+good enough. Does the skill file
+actually add any benefit to it?
+Um
+a good number of cases, the models do a
+very good job on its own and it just
+needs a little nudging in a particular
+direction. So I expect as we continue to
+improve on these, these skill files and
+these outputs will just get simpler and
+simpler over time until they're
+distilled down to the handful of things
+that are very important for getting the
+output that we want. Cuz yeah, it's
+probably completely over-engineered at
+this point, I think.
+>> But again, my brain wants some kind of
+structure to what we're trying to do. So
+the the structure I would So if I were
+building this process myself from
+scratch and they needed to start from
+research of competitors and I know that
+my competitors are the pages that are
+ranking at the top. Uh what I would tell
+uh AI or Claude specifically to do, I
+would tell it to download all the
+content in the folder
+and then yeah, I would I would ask it to
+extract from each piece of content kind
+of the main themes and the main ideas
+and then I would ask it to
+cross-reference those main themes and
+the main ideas between the articles and
+create me one master document with all
+of the kind of ideas, stories,
+interesting points
+uh from all of the content. So my my
+output uh I I don't necessarily need
+like you had the people also ask
+questions and that stuff. I would just
+ask it to
+uh analyze articles and create kind of a
+blended master file with everything
+unique that is pulled from all the
+articles. Actually, I do a similar
+process right now when I when I prepare
+for podcast interviews with
+marketing leaders. What I do is I do a
+pretty similar thing.
+I give Claude their previous interviews,
+links to their previous interviews on
+YouTube. It downloads the transcript and
+then it creates me for each of these
+transcripts because I don't want to read
+the whole thing. I want TLDR, too long
+didn't read. So, I ask it extract the
+questions because questions are topics
+within the interview. And then
+differentiate between
+main questions and follow-up questions
+where the host is digging more into this
+topic. So, yeah, you know, like where
+the main question, where the follow-up
+question and then instead of giving me
+the whole answer give me TLDR, just a
+few sentences of what the guest replied.
+Give me if there was any hot take. Give
+me if there was any story. Give give me
+if there was any specific number like,
+"Oh, we increased our leads by 300% or
+something." And I think there was
+something else, but I forgot about it.
+So, it creates me TLDR for each of the
+interviews and as the next step, I ask
+it, "Now create me a master TLDR." And
+this is what I would read while
+preparing for for the podcast interview
+because it would give me all the unique
+information from like a dozen
+interviews. So, it feels that when I
+want to create a piece of content, it's
+kind of the same. I want to know
+what has been said already by
+on this topic. So, this is what I would
+include research phase. But, yeah,
+you're giving it people also ask
+questions, parent topics, but it feels
+that when you say that you're extracting
+kind of topics from a page, it feels the
+same what I'm doing when I'm extracting
+questions that a host asked my guest and
+then I Do Do you also ask it to create a
+master document with everything?
+>> That is yeah, the basic that research
+document is the kind of um
+uh this is the research document it
+would hand over to the next step of the
+process.
+>> Okay, uh we discussed research. What is
+the next step?
+>> So, the next step
+uh Ahrefs references.
+>> So, how does how does it work?
+>> So, this was I actually added this very
+recently and this has been very helpful.
+Um
+Claude can do a good job writing an
+article on most topics. It can go and
+look up other content. That's all well
+and good. Um I really wanted a part of
+the process where, you know, as a human
+writer, I would go and see what we
+already have on a topic because I want
+to make sure a new article is consistent
+with old things we've written. I want to
+interlink between them. Uh I want to
+make sure the kind of framing is useful.
+I want to be efficient and make sure I'm
+not repeating myself. I can just pluck
+elements from existing articles. So,
+this specifically looks up the target
+keyword to see what we have already
+published on that topic, what is already
+ranking for similar topics, and it
+incorporates elements of that into the
+uh
+like outlining generation process.
+>> Okay, it feels like
+it feels again I will try to
+explain it from my perspective. Uh I
+will try to kind of simplify the
+process. So, it feels the same as
+research as the first step where you
+take the pages where you extract kind of
+unique information from them and you
+want to understand kind of the the
+overall topic coverage uh as pulled from
+like a dozen different pages. And now
+what you're doing, you're referencing
+our own content. So, rather than
+searching which are the top 10 ranking
+pages for the topic, you're going and
+searching, okay, what relevant pages
+does Ahrefs does our website already
+have on this topic? And can we pull
+something interesting from them and
+again cross-reference with my master
+document if we're saying something
+unique uh that this master document is
+not saying. And what's what's important
+is because our content is very
+product-laden, we try to fill our
+content with use cases of our tools and
+data.
+Often times, the unique bits that uh AI
+can pull from our content on this topic
+are those use cases. And you can even
+specifically instruct it. So, you can
+tell Claude so specifically look for
+whenever we're discussing this topic,
+how are we uh teaching people to use our
+tools? What kind of actionable use cases
+we're teaching them? Uh and then it
+would create you another document with
+like, "Okay, this is the master document
+of what all competitors are talking
+about this topic, and these are unique
+insights that I saw uh published on your
+blog, and here are unique I know use
+cases uh of your product that I saw in
+your articles uh on this topic. So, is
+this more or less what you're looking
+for?"
+>> Yeah, exactly that.
+And this step is quite simple as well.
+It's basically I wanted to provide a
+almost like a list of modules or
+sections that could be relevant to this
+topic that we have already covered, so
+that when it comes to outlining and
+drafting, Claude can go and look up
+these examples, incorporate those
+headers, uh link back to them as an
+internal linking step. Just make it kind
+of an integrated part of how we create
+content.
+>> Okay, and then we have next step.
+>> Yeah, and now onto the outlining phase.
+Um so, let's have a look. See if I can
+find the skill for this one.
+So, these are This is very similar to
+what we had in the uh custom GPTs. This
+is kind of the editorial process that
+when a writer puts together an outline,
+this is how I expect them to do it.
+Um
+so, it's got some very simple core
+concepts. Uh you know, every uh we must
+use the bluff principle. So, every
+section must open with the most
+important idea and then segue to
+examples, extra context, that kind of
+thing.
+>> [snorts]
+>> Um we need to make sure we're logically
+supporting the thesis. So, the headers
+must make sense within the context of
+the title you've created. We need to be
+exhaustive in how we cover the topic. We
+need to be mutually exclusive, so we
+don't have loads of overlap between each
+of the sections.
+Um, and again, these are things that if
+you ask Claude to edit an article and
+make it MECI, it does a fairly good job
+of that. It has a good comprehension of
+what that means.
+Um, and then you can see an example
+outline of an outline here.
+So, we've got a hook, key points, uh,
+any ideas for transition it wants to
+include, or a specific example it wants
+to include, it wants to include a table.
+Um, these are the bones of the article.
+>> You mentioned a very, uh, important
+word. The word is example.
+Uh, I can give you,
+uh, a quick reference of, uh, why I'm
+talking about it. So, I have a bunch of,
+uh, skills in my Claude code for
+creating LinkedIn posts.
+Uh,
+for example, I have, uh, product-based
+LinkedIn posts when I'm announcing a
+feature. I have, uh, podcast
+announcements when I'm announcing that I
+had a new guest on the podcast,
+uh,
+or just regular posts when I have an
+idea and they want to kind of deliver it
+in the best possible and punchy way.
+The thing is, for, like, each of those
+is a separate skill that I have created,
+that I have instructed,
+uh, Claude code of what I'm looking for.
+When I'm announcing a podcast, that's
+one format. When I'm announcing a
+product update from Ahrefs, that's
+another format. When I want just to
+improve a random post that can be about
+anything, that's a different set of
+instructions.
+But, the thing is, for each of those
+skills, I have a folder where I I have
+given Claude code a bunch of examples.
+Here [snorts] are the examples of my
+previous podcast announcements, so that
+not only you have my instructions of how
+to write them, how to structure them,
+you have examples of how I did that in
+my voice already previously. And also
+like those examples come also with
+engagement metrics. So it's
+even sees which post perform better,
+which post performed worse.
+Same for podcast announcements, same for
+product announcements, and same for
+random posts. So we'll always have a
+folder with examples to reference, and
+they almost feel like
+when it only has instructions
+versus when it has instructions and like
+five to 10 examples
+I feel it does a better job when it has
+kind of the actual examples to fall back
+to. So when you're saying that this is
+there's a step of an outline, I almost
+want to you to have a folder where you
+have five examples of outlines of
+previous posts.
+>> We do have that somewhere. Is it
+templates? [clears throat]
+Yeah, somewhere we do have that. Maybe
+it's in part of the
+the skill files.
+Cuz they're exactly the same thing. I
+Yeah, we
+Every time we generate something, we
+generally want it to maybe sound like us
+or sound a particular way.
+And I used to see a lot of people feed
+it writing and say, "Can you distill my
+writing down to a handful of principles
+that you can then follow?"
+>> I was I was always very skeptical of
+that though. Like how can you reduce
+somebody's unique voice down to a
+handful of things that then Claude
+without that example to back it up can
+actually go away and do? I think what
+you're you're right, the much better
+thing to do is let the model infer
+itself from an actual example.
+Uh cuz, you know, your writing style I
+don't think is always going to map
+neatly across to a five bullet point
+lists of
+your writing style or whatever. But
+Claude is a large language model. It can
+infer from large samples of text the
+patterns that do actually exist in your
+content. And that is how it'll end up
+sounding like you. So, I totally agree.
+Anchoring it with an actual example and
+saying, "Make it sound like and feel
+like this." is actually pretty good from
+um what I've seen.
+>> Yeah, and this is this is exactly how
+people should create those skills in the
+first place, because the way I created
+my skills is I gave it a bunch of my
+previous podcast announcements. I said,
+"Analyze these posts. Tell me what I'm
+doing here. Tell me what's my style."
+It would tell me like what it kind of
+inferred from uh reading my posts, and I
+would correct it if I disagree
+somewhere. If if it doesn't feel like it
+understands what I'm doing, uh sometimes
+it would understand what I'm doing
+better than myself, which is funny. I'm
+like, "Oh, that's that's really what I'm
+doing. I just I I was doing it
+subconsciously. I didn't understand
+that." And then, for example, uh
+speaking of podcast announcements, I
+would give it some podcast announcements
+from Lenny Rachitsky, how he announces
+his podcast interviews on LinkedIn. And
+I would say, "Okay, analyze what Lenny
+is doing here." Uh it would analyze what
+Lenny is doing. Again, I would correct
+if I disagree with something. And then I
+would say, "Now create kind of something
+in between, something between my
+approach and Lenny's approach, and tell
+me what set of instructions you would
+come up with." So, basically, I'm not
+creating instructions myself. I don't
+need to write out instructions. I'm
+giving it examples. I'm telling I'm
+telling it, "Analyze and tell me what
+you see, like what's the kind of
+principles behind this piece of
+content." And then I would correct it if
+I disagree with something. I would
+monitor what what instructions it is
+creating for itself, and I would uh
+correct it. And then, like I said, it's
+very important to have those examples
+for it to fall back on uh because then I
+just I just feel the output is always
+better.
+Okay, so that's outlining step.
+Uh like you said, you you do have some
+outline examples. Actually, it's as easy
+as asking Claude, "Hey, outlining step.
+Uh tell me, do we have examples for it?
+How are they stored? are they stored in
+a text document, are they stored in a
+folder, and it would tell you, and if
+you don't, you can just say, "Okay, then
+create this folder, add these examples,
+and cross-reference it." So, yeah,
+uh a lot of people kind of
+I'm not sure if I can use the word
+over-engineer, but they overthink. They
+overthink what is AI, but it's like as
+easy as just talking to it, asking it
+questions like, "How did you do this?
+How did you do that?" And guiding it uh
+well, of course, if you have a good idea
+of what you want to achieve, but it's
+very important to be able to break the
+process into kind of
+uh smaller steps, into building blocks,
+so to say.
+>> Yeah.
+>> Okay, next uh after outline, what's the
+step?
+>> So, now what we do is we look at the
+outline we've created, and we ask Claude
+to find specific opportunities to
+mention relevant Ahrefs products.
+Um I tried, you know, having this at
+integrated into other steps, and it was
+a bit hit and miss, and this is
+obviously something that really matters
+to us, because
+this is why we write content. We want to
+talk about the product in context where
+it makes sense to do that. So, this is a
+discrete stage. This will do this every
+single time.
+Um
+Uh you know, it's very simple, cuz
+within the skill, I actually have a kind
+of master list of Ahrefs products and
+features, which I asked Claude to create
+for me, and then I updated and tweaked
+myself to include like newer ones, add
+some features. So, it goes to that, and
+it looks at the outline, it says, "Which
+of these can I contextually mention in
+this outline, and have it make sense,
+have it be useful for the reader?" And
+it just adds a little signpost for the
+next step, uh so that when it comes to
+drafting, it knows to actually
+incorporate Ahrefs into it.
+Like, you know, Keyword Explorer, that
+kind of thing.
+>> And again, probably this is not
+something that people need to write
+start to finish themselves. Just drop
+links to your landing pages, to your
+video overviews, ask it to analyze it
+and tell it tell you what the product
+is, what is it what is it good for, what
+are the top use cases, what are they
+like uh use cases for I don't know for
+this area, for that area, and then you
+just correct it. So, yeah, it's it's
+actually those things are easier to
+create than than uh people might think.
+>> Yeah, exactly. I would go site audit,
+rank tracker, content explorer. Uh
+Claude did most of the heavy lifting
+here. I just reviewed it. Um and I added
+in some I need to add in like fire hose
+and things like that actually.
+Um
+But again, Claude can do all this for
+you. It's a fantastic diligent worker.
+Uh and then after that is the drafting
+stage. And I think what most people
+would do like a AI content process, this
+is probably the only stage they would
+create. And certainly when I've talked
+to people, this is all they do. They
+focus on what are the best prompts for
+making an article.
+But yeah, from all of our trial and
+error, I think having tons of steps for
+research and structure before you get to
+writing is what ends up giving you the
+best outcome.
+Um
+And this is again similar to the writing
+rules we had in our previous GPT. It
+just has some This is adapted from our
+own internal writers like style guide
+for writing.
+You know, use the problem agitate
+solution uh formula. Here's an example
+of it in action as part of the
+introduction. That works pretty well.
+Some structural stuff, that inverted
+pyramid, uh always explain what and why.
+Uh
+Yeah, all these very simple things that
+Claude can do very well.
+Mhm.
+>> Draft is not a final step, right?
+>> It is not the final step.
+>> go goes after draft?
+>> So,
+uh
+So, we have a kind of verify claims
+stage.
+Um internal linking is very important
+for us and for SEO, and also making sure
+we have
+included useful up-to-date sources for
+everything that we do. so there is a
+particular step in here that
+it actually goes through the draft and
+it looks for the claims.
+Things, you know, claims that the
+article is making that we would need to
+go out and validate and it makes sure
+that it has an up-to-date source for
+that or it update it reviews it to see
+if it's accurate or not. Um and actually
+I've been working on this, you know,
+updating this skill because this is a
+big part of our content updating
+workflow. We want to go back to old
+articles, find all the claims, make sure
+they have the most up-to-date uh
+validation and accurate stats for it.
+Uh so that's the next step of that
+process there.
+>> And there is there is more steps after
+this?
+>> Yeah, not too many more.
+Um so we have
+uh a preview stage. So at this point I
+wanted to be able to look at the draft
+uh and sanity check it and see if I was
+happy with it. And it's not always I
+don't like looking at markdown files
+like this, so it actually generates a
+HTML file that is styled to look like
+the Ahrefs blog. And I can then open
+that up in my browser just to like see
+what it would look like and feel like on
+the blog, so I can quickly review it
+from that point of view.
+And the thing that still takes a ton of
+my time that I am trying to work on is
+uh screenshots.
+So much of our content is product-led,
+it involves using the Ahrefs product.
+Screenshots are so important for that.
+At the moment what this does is it will
+uh suggest a report
+uh that we can actually go and visit and
+take a screenshot of.
+And we actually have another skill that
+other people on the comp in the company
+have built which allows the claw to
+structure correct URLs for our reports.
+So it can actually generate a genuine
+report URL for you to visit in Ahrefs
+and then I can take a screenshot of
+that. So that's quite useful. I'm trying
+to automate that with some headless
+browser stuff and some screenshotting
+and that kind of thing. Um but at the
+moment I spend as much time doing the
+screenshots as I do actually editing,
+reviewing, generating. So, that's a big
+part of it.
+>> Okay, uh since my my job on this podcast
+and in our calls is to essentially
+criticize everything you do.
+>> [laughter]
+>> What what what a fun job. People would
+would think I'm a terrible person, but
+it is what it is. To be honest, one one
+step I I
+expected to see in this process
+is when you would
+kind of dictate to this system some of
+your thoughts of where to take this
+article in free form. And I would
+explain why Ah, you have it or
+something? You you you you're pointing
+something out.
+>> indeed. Yeah, I kind of glossed over it.
+Um
+I totally agree. Sometimes you just want
+to provide a few sentences of thought or
+direction. You want to mention a
+specific product and you don't trust it
+will do it itself. So, one of the things
+I added recently was this context
+trigger.
+Um so, this right at the get-go when you
+trigger the workflow, you can provide it
+with as many sentences of context as you
+would like, and that is then used to
+shape and inform the rest of the
+process.
+Um so, often I'll say cover this topic
+or this topic or review this existing
+article and bring elements of that into
+it or mention this new product and that
+kind of thing. And it's just a little
+directional nudge and then again, that
+seems to be very useful for getting a
+good outcome from it.
+>> Uh I think it's like a critical step in
+my opinion. Again, we are still in the
+very early days of all that. We're still
+experimenting and
+like I have so many thoughts
+in regards to all this. So, first of
+all, I think it's important to point out
+that what you just showed is a work in
+progress. Because any any kind of skill,
+any kind of workflow that you build for
+yourself in Claude Code or any other AI,
+it shouldn't be set in stone every time
+you run it and every time you analyze
+the output, whether total output or
+whether output of the steps,
+and you don't like something, you need
+to go and refine, and you keep refining
+and refining, and you're basically
+teaching your AI workflow, AI agent, AI
+skills skill to do a better job, and
+with every run it would get better and
+better. Uh so, this is the first point.
+The second point, I feel this uh this
+step of giving it context
+is super important because it is what
+will essentially make your content
+unique. Because again, uh the reason why
+I was also surprised that you would let
+it run for 8 minutes and just generate
+something for you, is because I would
+expect that uh you would get a TLDR file
+from the top competitors, you would go
+through it, and you would just like in
+free form, uh I'm I'm using WhisperFlow,
+this thing to dictate into into anywhere
+basically in text all the time, and I
+would just click a button and I would
+say, "Oh, like, so I disagree with this
+part. I think this part is good. Don't
+even mention this part is not important.
+Here is where I think you can and you
+can give it a lot of instructions." It's
+almost as when we had those content
+mastermind calls, where we would discuss
+ideas and we would brain storm where to
+take every idea.
+In the same way that we were giving each
+other feedback and uh kind of figuring
+out what angle is best to take uh with
+uh any given content idea, in the same
+way you can provide uh feedback to or
+context to AI, and I feel it would it it
+typically would do a great job at doing
+this.
+>> And that's very another very good point.
+Maybe I'll talk briefly about how I
+think conceptually this process should
+be used for content marketing generally.
+Like, this is not the Ahrefs content
+process going forward. It is not as
+though everything we create has to come
+through this or will come through this?
+Um we spend a lot of time writing stuff
+that is AI still not very good at
+helping with things that require tons of
+thought and experience and unique
+perspectives and ideas that maybe other
+people haven't even shared before.
+I think this is really useful because
+you know, we've written literally
+thousands of articles over the years and
+what I see being really important for us
+going forward is having this
+well-maintained library of evergreen
+search content. I want to make sure we
+cover all the core topics that relate to
+our product and how to use it, keep them
+updated. And a lot of times that is very
+simple, quite repetitive stuff. Like how
+many ways are there to do keyword
+research? Quite a few as it turns out.
+So I think this is really good for
+topics, you know, we have tons of
+information documenting keyword research
+and all these kinds of topics that can
+be used to inform this process. This is
+almost like, you know, doing our
+housekeeping for us in some sense. Um
+it's not something that requires a ton
+of direct involvement guidance because
+we've already done that. We've written
+dozens of articles on these topics that
+it is using
+used to shape these articles now.
+Um and you know, I've generated tons of
+articles from this that were I could
+have published and would have been fine,
+but I didn't know enough about them. I
+didn't think they were interesting
+enough and I've chosen not to do that
+because I still deeply care about
+everything we publish and I'm I want to
+make sure we put out the best thing we
+can.
+>> So yeah, I feel this process and the
+reason why kind of you let it run on
+itself with little output, it feels that
+it's best used to take some kind of what
+we call a general knowledge topic and
+adapt it to us because one of the steps
+it pulls from our existing content and
+it finds what kind of unique stuff we
+said, then it finds the the way to
+include Ahrefs in our use cases in this
+post. So basically, for example, there's
+plenty of information about link
+building
+but it doesn't necessarily share what we
+have shared about link building, and it
+doesn't necessarily makes good use of
+Ahrefs tools when it comes to link
+building. So, with this automated
+process, this is where you don't need to
+write something from scratch. You can
+analyze existing content, and AI can
+find a lot of information from our
+existing articles and from our tools to
+include in the post, and yeah, you have
+the post ready.
+Am I right?
+>> Yeah, exactly that.
+Yeah, I like to think, is this a boring
+topic that I don't want to write
+because we've covered it a thousand
+times? If so, maybe it's a good
+candidate for the AI process,
+which is not everything we publish.
+>> In that regard,
+oh, you have something something else to
+say.
+>> Yeah, so very briefly, I just it kind of
+ties onto this. And also, we built a
+content updating pipeline. This is a bit
+newer. I'm still tinkering with this.
+But in a similar way, yeah, we have
+yeah, thousand published articles, for
+example, and it's very hard for human
+people to keep on top of that, keep them
+updated. So, we're working on a similar
+process here that is designed to
+basically periodically give you updated
+content to review and edit and approve
+and potentially publish.
+Um, and very similar thing, there are
+basically three things this does.
+It looks for claims that might be
+outdated. So, there's an old stat or
+something that doesn't make sense,
+Claude will review it and try and find a
+new version of that and allow you to
+accept it if you want to.
+Um, you can find opportunities to add
+new Ahrefs product features. So,
+obviously some of our articles were
+published like eight years ago, they
+don't mention our latest products like
+firehose or, you know, AI content
+helper. This can make recommendations
+for you.
+And lastly, updating topic gaps. So,
+this is where it looks at the SERP and
+it says, is there anything that has
+other articles talk about that we don't?
+Perhaps we should draft a section for
+you to review and edit and didn't
+And it just makes, you know, a very
+boring, um, unstructured process a bit
+more organized and a bit more, um, fun
+for people to engage with, I think.
+>> I I really really like where all of this
+is going because I think this is
+actually the future of how content is
+going to be created. And, uh, I wanted
+to wrap wrap this up from a different
+perspective because you essentially
+shared a workflow of how, uh, to create
+content on what you call like a boring
+topic, something that has been covered
+over and over and we just have like some
+unique spin or we want to cover this
+topic and include our products and
+services. I wanted to to share a quick
+story, uh, from the other side when you
+want to create something completely
+unique. Uh, and that is, uh, so I'm in
+the process of writing a book as I
+mentioned many times on this podcast
+already. And, uh, just 8 months ago I
+was complaining to, uh, a bunch of our
+team members that it is very hard for me
+to context switch because when I stop
+working on the book and I do some like
+projects, uh, inside Ahrefs and then I
+need to return to the book like a few
+weeks later, I barely remember what I
+was writing about, I barely remember my
+train of thought and it's almost like I
+need to upload all the information from
+scratch. And, uh,
+I think it was father who said, uh, "Why
+don't you just upload like all your
+chapters to AI and kind of ask it to
+guide you like, uh, AI would ask like a
+journalist or a ghostwriter who'd be
+interviewing you, asking you questions
+and would be kind of writing the book
+for you." It was 8 months ago, about 8
+months ago. And I said,
+"I cannot see how I would be able to do
+that." So, back in the day we didn't
+have Claude Claude, back in the day like
+ChatGPT just released their custom GPTs
+or something.
+I couldn't see how I would upload like
+my entire book and be able to work with
+it. Fast forward 8 months and the last
+chapter of my book, I just finished the
+the draft. The last chapter I wrote it
+with AI by dictating my ideas into
+Claude code. And my process was I told
+it, "Okay, the name of the chapter is
+this. What is going to happen is you're
+going to create a folder with my random
+dictations because I have a list of
+notes what I want to say within this
+chapter. And those notes exist in the
+form of
+three words or one sentence. Basically,
+talk about this or expand on this idea."
+And I would hit a button and I would
+just ramble. So, there's this idea and
+they wanted to say blah blah blah. And
+we like did this thing at Ahrefs and we
+have this interesting story blah blah
+blah.
+Dictation over. Next idea. And I was
+just
+rambling on each of my ideas. I had a
+few dozen of them. Okay, it saved it to
+the folder. And I said, "Okay, I'm also
+like when talking when talking about
+those ideas, I was referencing a few
+things. Some of the things that I
+discussed with some other marketing
+leaders on the podcast, some of the
+things that we actually covered on
+Ahrefs blog." For example, we have an
+article about taste. And I just said,
+"Oh, like I'm talking about taste in in
+my chapter and you have my voice
+dictation with my ramblings about it,
+but we also wrote a nice post. Please
+include it as sources when talking about
+taste." So, I gave AI I gave it all my
+dictations and I gave it all the
+resources that I remembered like
+different YouTube videos, interviews,
+different articles that I want to
+reference, etc. Even some LinkedIn posts
+that I saw from people who are sharing
+these ideas.
+And then I said, "Okay, now the general
+idea of this chapter
+is this. I'm trying to make a point that
+blah blah blah blah blah.
+Now you know like all my dictations, now
+you know all my resources, all the
+stories I want to tell.
+Tell me how would you connect the dots?
+How would you structure it? So,
+essentially create me an outline." And
+it would write me, "Oh, so I suggest
+that you lead with this story, then it
+transitions well this, and then this
+argument, and then these things, blah
+blah blah.
+At which point I would say, like I would
+give it some feedback where change it or
+not.
+Or I would say, sounds good to me, write
+it. And it would write a chapter for me.
+And then I also like upload it to Cloud
+Code. I I downloaded from Google
+Documents all my previous chapters, and
+I said, okay, for each chapter create
+kind of a synopsis file. What this
+chapter is about, what are the key
+arguments that I'm making, and what is
+the TLDR outline of a chapter, what are
+the main stories and key ideas that I'm
+sharing. So for each chapter it created
+this file kind of with a recap of the
+chapter. And then I said, now refer to
+all the files of all the chapters, and
+create me a synopsis of the book. I want
+to know like what the book is about, how
+it is structured, and what is illogical.
+And it is so good. It's like it's
+literally like you're you're offloading
+some of your brain work to someone else.
+Like you have an external brain that
+processes information for you. So this
+is why kind of when when we started
+talking and when you shared that you
+created a system for
+creating blog posts fast, and you said
+that your productivity increased, that
+you published like three articles in a
+few days or something like that.
+I am actually expecting that all of the
+content that we're going to create, it
+would go through AI, that we will no
+longer manually write stuff. We will
+just hit a button. We would ramble to AI
+what we want to say. We would point it
+at like whatever resources we want to
+use to make a point, and it would help
+us write even a better article because
+its ability to connect the dots and
+understand what you're saying
+is actually quite crazy. I'm very
+surprised how well it was able to
+distill my ramblings into coherent
+ideas, and connect the dots between
+them, and organize it in a way where I'm
+like woah, this actually looks quite
+good. So, yeah,
+the process that that we just covered in
+in this podcast is mostly for kind of
+semi-automated content. You still want
+to like overlook it and like like you
+said, you have a step to give it context
+of where you want to take it and what's
+the unique angle and stuff like this,
+but it's still like you're you're
+floating the majority of the work. While
+I think going forward creating content
+yeah, AI would act like a journalist, an
+editor, a ghostwriter, and you would act
+as a source of ideas and opinions. And
+people who don't have a good writing
+skill, but have strong opinions would be
+able to publish their content fast. So,
+what are your thoughts on this?
+>> Yeah, I totally agree with that. Um, I
+always find some people think that human
+creativity is too unique and magical and
+special that like AI could never help
+with it and never be a useful aid in
+that process.
+But actually, there's a lot of mental
+drudgery we do when we're writing a book
+or an essay or anything like that. I
+think the ideas, the motivations, the
+experiences, the things we care about,
+that is still uniquely you in your book.
+It's still your book and your ideas, but
+all yeah, the sitting down for hours and
+shuffling these ideas about and working
+out what are the common themes, that is
+something that AI is fantastic at doing.
+Um, yeah, if it can make these writing
+and creative processes more fun for us,
+then like well, that shouldn't be scary.
+I think that should be fun. We'll be
+more prolific, we'll share more stuff,
+there'll be more of our unique thoughts
+and ideas out in the world.
+Um,
+so if yeah, for all the kind of like sad
+drudgery and you know, are we automating
+careers and jobs away, actually we could
+create more cool stuff than has ever
+existed before in human history. That's
+totally possible now.
+>> [snorts]
+>> I like I like the word drudgery. I think
+what what AI does, it it literally
+eliminates drudgery. Because like I
+said, for me it was a pain to go back
+and to because I would need to read my
+entire chapter again to remember what I
+was saying there. And now I can say,
+"Remind me what was the synopsis of the
+chapter, where we left off, which ideas
+need work?" It would tell me all that
+and I'm like immediately I can continue
+working and I can pick up where we left
+off. So,
+yeah, let's let's not make it longer
+than than we need.
+Thanks a lot for sharing your process.
+Thanks a lot for as always letting me to
+jump in with my thoughts and ideas.
+I generally think we're on the right
+track with with
+these kinds of things and this is the
+future, definitely. This is the future
+of content marketing and content
+creation.
+Thank you, Ryan.
+>> Thanks, Tim.
