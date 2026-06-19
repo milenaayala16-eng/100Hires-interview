@@ -1,5 +1,39 @@
-# Development Environment Setup — Cursor IDE
+# 100Hires - junior growth marketing specialist
 
+# Part 2
+
+## Why I Chose These 10 Experts
+
+When building this list, I tried to avoid sticking only to the first Google search results or "gurus" who just sell courses. I wanted to learn from people who are actually working on this every day in large companies or deeply researching how AI is changing everything.
+
+Here is why I chose each of them:
+
+**To understand the business and product:**
+- **Kevin Indig**: Worked at Shopify and G2. I chose him because he clearly explains how SEO should serve to grow the company and not just bring empty traffic.
+- **Eli Schwartz**: Author of the book *Product-Led SEO*. I found his approach of thinking about content from the product perspective incredibly useful.
+
+**For content quality and avoiding penalties:**
+- **Ryan Law**: Works at Ahrefs. His blog is exactly what I would like to achieve someday in a SaaS project, so reading what he does felt key.
+- **Lily Ray**: Currently, she is the top expert on E-E-A-T. Since there is a lot of AI-generated spam content right now, researching what she says seemed super important to do things the right way.
+
+**For mixing AI with SEO:**
+- **Aleyda Solis**: She is a world-class expert and is publishing a lot on how to optimize for ChatGPT and new AI search engines.
+- **Tomasz Niezgoda**: He is at Surfer (an AI tool for SEO). He is great for understanding how to use Artificial Intelligence tools to write faster while maintaining quality.
+
+**For the technical and optimization side:**
+- **Patrick Stox & Cyrus Shepard**: I added Patrick (from Ahrefs) and Cyrus (ex-Moz) because they explain the technical part of SEO in an easy-to-understand way, and I wanted to ensure the strategy had a solid on-page foundation.
+
+**To build authority and stay organized:**
+- **Jeremy Moser**: Talks a lot about link building (which always seemed really difficult to me) but focused on B2B companies.
+- **Nathan Gotch**: I chose him because he explains very well how to build processes and systems step-by-step. He is great for learning how to be more methodical and not rush things.
+
+**In summary:** I looked for people from whom I could learn practical things that work today, and I think the information I gathered from them is extremely valuable for putting together a future plan.
+
+> **Note:** Initially, I attempted to scrape the profiles to automate data collection, but it wasn't possible due to rate limits on the Apify API, and additionally, the profiles were set to private.
+
+---
+
+# Part 1
 This repository was created as part of a technical evaluation to demonstrate the installation, configuration, and troubleshooting of the **Cursor IDE** development environment, including the integration of AI extensions for software development.
 
 Below are the tools installed, the steps completed, and the technical challenges encountered during the process.
@@ -59,15 +93,6 @@ cursor ./
 
 loads the correct working directory context. This made it possible to confirm in the sidebar that both extensions were installed and active for the session.
 
-### 3. Git push authentication (403)
-
-- **Problem:** `git push` failed with `Permission denied to LucasOlivera-andreani` because Windows Credential Manager was using a different GitHub account than the repository owner (`milenaayala16-eng`).
-- **Solution:**
-  - Signed in with GitHub CLI: `gh auth login` (account `milenaayala16-eng`).
-  - Ran `gh auth setup-git` so Git uses `gh` for GitHub credentials.
-  - Removed stale `git:https://github.com` credentials for the other account from Windows Credential Manager, then pushed again successfully as Milena.
-
----
 
 ## Evidence
 
