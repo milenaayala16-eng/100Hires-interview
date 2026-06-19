@@ -1,0 +1,68 @@
+================================================================================
+POST 1
+================================================================================
+
+🤖 Do AI Assistants Actually Render Your JavaScript when Grounding? Andre Alpar Put It to Test: The result? It’s not good 👇
+
+* US AI assistants (ChatGPT, Gemini, Claude, Copilot, Perplexity, Meta AI) read raw HTML only
+
+* Chinese assistants (DeepSeek, ERNIE, Qwen, Kimi) and Mistral render JavaScript.
+
+Most US systems requested only the HTML. They never even pulled the script file. But two cases sit in the grey zone between “reads text” and “runs code”.
+
+The most uncomfortable lesson has nothing to do with rendering. It is about trust.
+
+* Self-reports are unreliable. Perplexity told in chat that it “couldn’t access” the page — while its own crawler had already fetched that exact page and received an HTTP 200.
+
+* The pipeline and the answer can disagree. Grok proved a system can run your JavaScript and still answer from the raw HTML.
+
+* When you want to know what an AI actually did with your page, trust the server log, never the chatbot’s description of itself.
+
+If your important content is injected by JavaScript — client-side frameworks, lazy-loaded sections, content behind tabs that hydrate on load — then for ChatGPT, Gemini, Claude, Perplexity and Copilot, that content effectively does not exist.
+
+Read it all in the link in comments 👇
+
+================================================================================
+POST 2
+================================================================================
+
+🥎 Almost 30 SEOs have already registered for the first
+hashtag
+#SEOFOMO x StudioHawk SEO Padel Open London! 🙌
+
+Join us for a fun, free SEO networking event with padel, drinks and food at Powerleague Shoreditch on Saturday, June 27, 2026, from 10am to 3pm 👇
+
+Whether you want to play or just come to watch, cheer and network, you’re very welcome:
+
+⭐️ New to padel? Join beginner-friendly matches for new players.
+⭐️ Already experienced? Take part in a mini-tournament.
+⭐️ Don’t want to play? Come to watch, cheer and network with other SEOs.
+⭐️ After the matches, we’ll wrap up with free drinks, food and networking.
+
+Register now for free 💪 https://lnkd.in/e3yyf8bE
+
+When you register, we’ll ask if you want to play or just watch and network, as well as your level of experience, so we can organize the matches accordingly.
+
+If you’re going to London for Search 'n Stuff , this is a fun way to make the most of your London stay: trying a new sport, playing padel, hanging out with other SEOs, and finishing the week with a bit of fun 😎🙌
+
+See you there?
+
+================================================================================
+POST 3
+================================================================================
+
+🚨 Bing is releasing New AI Visibility Insights in Bing Webmaster Tools: Intents, Topics, Citation Share, Comparison option 👇
+
+* Intents: With the new Intents feature, grounding queries in the AI Performance Report are now classified into broader categories such as Informational, Commercial, Navigational, Learn and Solve, Research, Creation, Local, and more. This should help publishers move beyond simply seeing which queries triggered citations and begin understanding the broader query context our systems associate with those citation appearances.
+
+* Seeing Visibility Through Topics Instead of Individual Queries:  Grouping related grounding queries into broader thematic clusters. AI systems reason across concepts and themes rather than isolated keywords. Topics should help publishers understand visibility in the same thematic structure that modern AI systems use to organize information.
+
+* Introducing Citation Share : Citation Share shows how much of the citation space your site receives for a specific grounding query. It is calculated as the percentage of citations attributed to your site out of all citations shown across all sites for that same grounding query. This should help publishers understand not just whether they were cited, but how much visibility they received within the full set of cited sources for that query.
+
+* Compare Changes Over Time: Allows publishers to overlay a previous time period directly onto the current reporting view.
+
+Intents, Topics, Citation Share, and Compare are now beginning to roll out in preview within Bing Webmaster Tools globally today.
+
+Thanks Krishna Madhavan and the whole Bing team for being the leaders in providing the AI search data needed by the search community to better understand and optimize for AI search 😎🙌 Can't wait to use it.
+
+Link of announcement in comments.

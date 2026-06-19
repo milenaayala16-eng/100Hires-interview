@@ -1,0 +1,55 @@
+================================================================================
+POST 1
+================================================================================
+
+17% of SaaS companies have a dedicated Pricing Committee. For the rest, pricing owns nobody.
+
+For a long time we treated pricing with extreme caution. It felt like something you could easily break, so we mostly left it alone.
+
+That changed when we realized it was one of the strongest growth levers we had and we'd been barely touching it.
+
+Today pricing is owned directly by our CEO, working closely with managers across the company. Incremental adjustments once or twice a year, larger structural revamps every two to three years.
+
+Each change goes through months of user research, data analysis, and live testing before we commit. It's slow by design.
+
+Valueships published the 2026 State of European SaaS Pricing with SaaSiest this year. 76 C-suite leaders. One finding I recognized immediately: price setting is the only dimension that doesn't develop by accident. It requires a deliberate decision to build. Without that decision, companies default to cost benchmarking and gut feel and call it a process.
+
+Most are leaking 10–18% of MRR because of it. At €5M ARR, that's up to €900K a year.
+
+The report maps five archetypes. The distance between the floor and the ceiling isn't tools or headcount. It's whether pricing is treated as a discipline or a default.
+
+Good read! https://lnkd.in/dtv6feaF
+
+================================================================================
+POST 2
+================================================================================
+
+Does being mentioned on more websites actually help you rank in ChatGPT?
+
+We just released a massive study of 289,105 URLs to find out if “Brand Mentions” influence AI recommendations.
+
+The verdict? A resounding yes.
+
+The research found a 0.41 Spearman correlation between brand presence in cited sources and the strength of an AI’s recommendation.
+
+In short: if you want ChatGPT to recommend your brand, you need to be mentioned on a high percentage of the sources it cites.
+
+Hear the most important insights from Paulina Kaleta in the video below.
+
+This is fascinating work by Joshua Hardwick the team at Surfer. It’s clear that "Brand Mentions" are becoming the new backlinks in the age of AI search.
+
+Read the full data breakdown here: https://lnkd.in/d-5rMmF7
+
+================================================================================
+POST 3
+================================================================================
+
+Stop jumping randomly between blog topics. 🛑
+
+If you want to build a strong content foundation, start by catching the "big fish" (your pillar topic), and then cover all the smaller subtopics surrounding it.
+
+Why? Because building out a topic cluster isn't just better for your SEO–it's actually much easier to write than constantly switching contexts.
+
+Look, no one ever said you can’t build a Lego set by reading the manual backwards... but why make things harder than going from A to Z?
+
+P.S. Want to join conversations like this live? Come hang out with us at the next Positive Surfer Visibility Club happening in Berlin on June 17th! Let me know in the comments if I'll see you there.

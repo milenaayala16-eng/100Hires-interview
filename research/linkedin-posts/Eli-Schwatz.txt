@@ -1,0 +1,93 @@
+================================================================================
+POST 1
+================================================================================
+
+SEO managers keep telling me the same thing: leadership is panicking about LLM visibility.
+
+You already know my opinion on that panic. Not the point of this post.
+
+The point is what citation should actually mean for a brand once you stop chasing the panic and start thinking about what good looks like.
+
+If your brand has done its job in the market, your homepage should be the answer when someone asks an LLM for the best option in your category.
+
+Not a comparison page buried six clicks deep or a blog post.
+
+The homepage.
+
+That's a different rule than the one SEOs grew up on where the goal was breadth.
+
+AEO doesn't work like that, and it shouldn't, because AEO is closer to a branding channel than a traffic channel.
+
+Look at the Semrush Enterprise report, and you'll see Indeed living proof of this.
+
+Their homepage is the main driver of their AI visibility. Not a help article. Not a landing page built for some long-tail query. The homepage is doing the job a homepage is supposed to do.
+
+Indeed's SEO team isn't winning that slot through some clever AEO tactic.
+
+They're cashing a check that brand marketing wrote years ago.
+
+So before anyone on your team budgets for a new tool or starts a new "AEO initiative," stop and look at what you've already got. Where does your brand show up right now, and is it the page you'd actually want representing you?
+
+That gap between your baseline and your ambition is where you justify new spend.
+
+In partnership with Semrush
+
+================================================================================
+POST 2
+================================================================================
+
+Google stood on stage and said the strategy for winning in AI search comes down to three things: be unique, be helpful, and be agent-ready.
+
+No secret schema, no chunking trick, no file you upload that makes LLMs fall in love with your site.
+
+Just three plain words.
+
+This should worry every AEO tool or consultant currently charging five figures a month for a checklist.
+
+Almost every tactic built around gaming AI answers has a shelf life measured in months rather than years, because the moment enough people exploit it, Google quietly patches it out from underneath them.
+
+Structured data formatting tricks, forum mention farming, answer-box keyword stuffing, all of it eventually gets discovered and neutralized.
+
+This also exposes something funnier: the entire category of tools that will happily tell you your brand's visibility score across ChatGPT, DeepSeek, Claude, Perplexity, and AI Overviews, charted weekly, color-coded, and exportable to a deck for your CMO.
+
+They'll tell you exactly where you rank. They will not tell you why, and they definitely won't tell you what to do about it, because the honest answer is "write something only you could have written," and that doesn't fit in a dashboard widget.
+
+You can watch your score go from 34 to 31 for a month straight, and the tool will never once suggest the actual fix because it isn't a feature they can ship.
+
+Agent-led spam doesn't count if it doesn't move the needle.
+
+The three pillars Google named don't have that expiration problem.
+
+Unique can't be automated away at scale, no matter how good the generation tools get.
+
+Helpful can't be faked for long once readers and ranking systems both start noticing the pattern.
+
+The smartest move right now isn't chasing whatever new AEO trend is circulating on LinkedIn this particular week, and it definitely isn't refreshing a tracking dashboard hoping the number moves on its own.
+
+Go back to the unglamorous work that never had a clever name to begin with: User empathy and marketing.
+
+================================================================================
+POST 3
+================================================================================
+
+Ahrefs recently launched an AI agent that can pull from millions of data points in the platform and let you draw your own custom conclusions with a prompt.
+
+If you are doing SEO and AEO research the old way, you need to give this a shot.
+
+You take real questions and answer it with data instead of trying to buttonhole the existing structure into answering your questions.
+
+In the last month alone, I've used it to:
+
+✅Find content topics for a client by surfacing patterns across Reddit threads in their niche
+
+✅Identify keywords that a competitor was losing rankings on that my client had a real shot at winning
+
+✅Build a full internal linking structure by having it analyze how a site's content actually clusters
+
+✅Create a PR outreach plan for a client who wanted brand visibility but had zero interest in chasing backlinks
+
+None of these were use cases in the Ahrefs standard navigation; they were just questions I had.
+
+If you haven't tried it, go do it now.
+
+In partnership with Ahrefs

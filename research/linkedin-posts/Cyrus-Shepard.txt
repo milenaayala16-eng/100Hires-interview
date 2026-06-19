@@ -1,0 +1,69 @@
+================================================================================
+POST 1
+================================================================================
+
+Most ranking declines in 2026 aren't about technical SEO, but the types of content Google now rewards
+
+So I built a "Competitive SEO Pattern Report" - using Agent A 🤖
+
+https://lnkd.in/gnyB-WpY
+
+Almost weekly, website owners reach out with the same problem - a decline in Google traffic to scary levels 📉 🥲
+
+The problem is *almost never* technical SEO - it's that Google simply rewards a different type of content now than "Commodity content + links"
+
+If you face a similar ranking decline, there's a good chance Google thinks your content is "commodity" or "generic."
+
+To figure out what to do instead, here is a process I use:
+
+1) Identify your winning and losing pages
+2) Find competitors with the largest keyword overlap
+3) Analyze both the URLs gaining and losing visibility across those sites
+4) Classify pages by type: product, blog, comparison, research, news, how-to, definition, template, tool, etc
+5) Finally, score the content against patterns we see working in Google SERPs - commodity vs. non-commodity, brand, experience, first-party info, freshness, task completion, format, etc
+
+Honestly, it's a lot of work, but showing this to clients is typically eye-opening
+
+I've done this process manually many times. So when our friends at Ahrefs asked if I wanted to partner to build something with Agent A - I knew this is what I wanted to build
+
+The app uses live Ahrefs data to gather all metrics, find competitors, and evaluate content against our predefined criteria.
+
+For now, the app lives in my own Agent A account, but you could easily build something similar
+
+Looking forward to what I can build next. Thanks for partnering!
+
+================================================================================
+POST 2
+================================================================================
+
+Google says it "ignores" llms txt, so I was curious whether this is a 100% hard rule. Does it really ignore them for SEO purposes?
+
+Upon testing, Google obviously:
+
+- knows about llms txt
+- reads and displays info from them
+- can cite llms txt files in responses
+
+In this particular example, the llms txt file is the ONLY URL cited for this specific topic
+
+So no, it appears Google does not completely "ignore" llms txt
+
+At least, not entirely.
+
+Here's a thought experiment: What would Google do if you made your llms txt file the homepage of your website? 🤔 🔬
+
+================================================================================
+POST 3
+================================================================================
+
+As SEOs, we hear a lot about "Information Gain"
+
+But is it actually associated with higher Google rankings?
+
+Excellent study via Eric Lancheres: how much *new information* a URL has vs its rankings
+
+New info didn't move the needle much (but the top 3 results contained more than the rest)
+
+Biggest ranking predictor? # of unique data points
+
+Entire study is worth a read: https://lnkd.in/g-p6eMT4
